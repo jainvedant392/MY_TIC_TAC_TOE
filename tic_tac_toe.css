@@ -1,0 +1,71 @@
+body{margin: 0; padding:0; background-color: rgb(43, 42, 42); color: white;}
+*{margin: 0; padding:0;}
+#heading,#title{
+    font-size: 23px;
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#heading{
+    background-image: linear-gradient(to right, rgb(255, 72, 17), rgb(255, 255, 0));    
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;    
+}
+#title{
+    font-size: 25px;
+    margin-bottom: -20px;
+    background-image: linear-gradient(to right, rgb(255, 0, 242), rgb(255, 0, 43));    
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+#Game{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+#game{
+    height: 340px;
+    width: 340px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, white, rgb(141, 112, 112));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 47px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 12px white;
+}
+button{
+    width:60px;
+    height:60px;
+    border-radius: 8px;
+    margin-left: 15px;
+    border: 2px solid rgb(119, 116, 116);
+    background-color:lightgray;
+    color: lightgray;
+    font-size: 50px;
+}
+#Result{
+    display: flex;
+    justify-content:center;
+}
+#result{
+    width: 280px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow:8px 8px 8px gray ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    font-size:25px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+}
+#playerx,#playero{
+    display: flex;
+}
